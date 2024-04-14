@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G920" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HistoryItem" representedClassName="HistoryItem" syncable="YES" codeGenerationType="class">
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <attribute name="interactionType" optional="YES" attributeType="String"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MapDataEntity" representedClassName="MapDataEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="endLocation" optional="YES" attributeType="String"/>
+        <attribute name="startLocation" optional="YES" attributeType="String"/>
+        <attribute name="travelMode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeatherDataEntity" representedClassName="WeatherDataEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+        <attribute name="dateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="humidity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weatherDescription" optional="YES" attributeType="String"/>
+        <attribute name="windSpeed" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="HistoryItem" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="WeatherDataEntity" positionX="-54" positionY="18" width="128" height="119"/>
+        <element name="MapDataEntity" positionX="-36" positionY="54" width="128" height="74"/>
+    </elements>
+</model>
